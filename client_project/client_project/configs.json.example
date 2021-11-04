@@ -1,0 +1,12 @@
+{
+  "DOMAIN": "",
+  "DEBUG": true,
+  "SECRET_KEY": "<set_secret_key_here>",
+  "DATABASE": {
+    "HOST": "",
+    "PORT": "",
+    "NAME": "<set_database_name_here>",
+    "USER": "postgres",
+    "PASSWORD": ""
+  }
+ }
