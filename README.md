@@ -2,7 +2,7 @@
 Django RestApi For Client Authorization and Registration
 
 Django REST - API, with methods:
-- Authorization and registration of the client
+- Authorization and registration Client
 - View and edit personal information (name, surname, address, photo)
 - Exit from the system.
 
