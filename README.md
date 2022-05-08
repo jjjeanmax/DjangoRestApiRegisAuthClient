@@ -1,34 +1,33 @@
 # DjangoRestApiRegisAuthClient
-Django RestApi Для Авторизации и регистрации клиента
+Django RestApi For Client Authorization and Registration
 
-Django REST - API, с методами:
-- Авторизация и регистрация клиента
-- Просмотр и редактирование персональной информации (имя, фамилия, адрес, фотография)
-- Выход из ситсемы.
+Django REST - API, with methods:
+- Authorization and registration of the client
+- View and edit personal information (name, surname, address, photo)
+- Exit from the system.
 
-## Старт
+## Start
 
-1. Создать и активировать виртуальное окружение:
+1. Create and activate virtual environment:
 
     `python -m venv venv`
 
-2. Установить пакеты:
+2. Install packages:
 
     `pip install -r requirements.txt`
 
-3. Выполнить команду для выполнения миграций :
+3. Run migrations:
 
     `python manage.py migrate`
 
-4. Создать статичные файлы: 
-
-    `python manage.py collectstatic`
-
-5. Создать суперпользователя:
+4. Create superuser:
 
     `python manage.py createsuperuser`
 
+4. Create config file:
 
-7. Запустить сервер:
+    `configs.json`
 
+6. Start django server:
+    
     `$ python manage.py runserver`
